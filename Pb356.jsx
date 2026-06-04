@@ -8,8 +8,8 @@ function Pb356()
     return(<>
         <h1 style={{color:c}}>{txt}</h1>
         <h2>{txt2}</h2>
-        <button onClick={()=>{f1}}>change text</button>
-        <button onDoubleClick={()=>{f2}}>change color </button>
+        <button onClick={f1}>change text</button>
+        <button onDoubleClick={f2}>change color </button>
         <button onClick={f3}>hide/show</button>
         </>)
     function f1()
